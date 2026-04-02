@@ -2,7 +2,7 @@ import subprocess
 import json
 import os
 import tkinter as tk
-from tkinter import ttk
+#from tkinter import ttk
 import getpass
 
 # Function to read JSON file and update variables based on the chosen layout_name
@@ -124,8 +124,8 @@ def save_file_with_loading_bar(output_file, scan_results):
     app.title("Saving Nmap Results")
 
     # Create a progress bar
-    progress_bar = ttk.Progressbar(app, mode='indeterminate')
-    progress_bar.pack(pady=10)
+    #progress_bar = ttk.Progressbar(app, mode='indeterminate')
+   # progress_bar.pack(pady=10)
 
     # Function to save the scan results in a file
     def save_results():
